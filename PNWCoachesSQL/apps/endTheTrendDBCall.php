@@ -1,16 +1,17 @@
 <?php
 
-// ------------------ Start the PNWDBArray Function
-
-function PNWDBArray() {
-  
-// Variables for connecting to your database
-
+// DB Connection Information
 $hostname = "localhost";
 $username = "pnwcoaches";
 $dbname = "pnwcoaches";
 $password = "Bozeman1803!";
 $usertable = "endTheTrend";
+
+// SQL Queries
+$connect = mysqli_connect($hostname, $username, $password, $dbname);
+$countSQL = "SELECT * FROM $usertable where coachUse = '0'";
+$resetSQL = "UPDATE $usertable set coachUse = '0'";
+$selectSQL = "SELECT * from $usertable where coachUse = '0'";
 
 // SQL Fields for JSON
 $cNameField = "coachName";
@@ -20,46 +21,49 @@ $cStatementField = "coachStatement";
 $cPicField = "coachPic";
 $cStatusField = "coachUse";
 
-$cJSONString = "";
+// Check Connection
 
-//Connecting to your database
-mysql_connect($hostname, $username, $password) OR DIE ("Unable to connect to database! Please try again later.");
-mysql_select_db($dbname);
+if (!$connect) {
+    die("Connection failed: " . mysqli_connect_error());
+} else {
 
-//Fetching from your database table.
-$selectResult = mysql_query("SELECT * FROM $usertable");
+// Gets the Row Count
+$rowcount = mysqli_num_rows(mysqli_query($connect, $countSQL));
   
-  if ($selectResult) {
+// Reset Database, if Less Than 1
 
-      while($r = mysql_fetch_array($selectResult)) {
+    if ($rowcount < 1) {
+      if ($connect->query($resetSQL) === TRUE) {}
+      else { echo "Error updating record: " . $connect->error; }
+    }
 
-          $name = $r["$cNameField"];
-          $city = $r["$cCityField"];
-          $story = $r["$cStoryField"];
-          $statement = $r["$cStatementField"];
-          $pic = $r["$cPicField"];
-          $status = $r["$cStatusField"];
+// Generate JSON Echo
+  
+    if ($JSONecho = $connect->query($selectSQL)) {
 
-          if ($status < "1") {
-              $updateQuery = "UPDATE $usertable SET coachUse = '1' WHERE coachName = '$name';";
-              $updateResult = mysql_query($updateQuery);
+      while ($r = mysqli_fetch_array($JSONecho)) {
 
-              $cPHPArray = array("$name", "$city", "$story", "$statement", "$pic", "$status");
+        $name = $r["$cNameField"];
+        $city = $r["$cCityField"];
+        $story = $r["$cStoryField"];
+        $statement = $r["$cStatementField"];
+        $pic = $r["$cPicField"];
+        $status = $r["$cStatusField"];
 
-              $cJSONString = json_encode($cPHPArray);
-              echo "$cJSONString";
+        $updateSQL = "UPDATE $usertable set coachUse = '1' where coachName = '$name'";
+        if ($connect->query($updateSQL) === TRUE) {}
+      
+        $cPHPArray = array("$name", "$city", "$story", "$statement", "$pic", "$status");
 
-              exit();
-          }
-      }
-    
-      echo "reset";
+        $cJSONString = json_encode($cPHPArray);
+        echo "$cJSONString";
+
+      exit();
+      
+    }
   }
-  
 }
 
-PNWDBArray();
-
-mysqli_close();
+mysqli_close($connect);
 
 ?>
