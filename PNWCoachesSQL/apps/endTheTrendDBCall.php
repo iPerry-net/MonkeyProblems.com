@@ -52,7 +52,9 @@ $rowcount = mysqli_num_rows(mysqli_query($connect, $countSQL));
 
         $updateSQL = "UPDATE $usertable set coachUse = '1' where coachName = '$name'";
         if ($connect->query($updateSQL) === TRUE) {}
-      
+        
+        $name = $name . ', from ' . $city;
+        
         $cPHPArray = array("$name", "$city", "$story", "$statement", "$pic", "$status");
 
         $cJSONString = json_encode($cPHPArray);
