@@ -1,0 +1,18 @@
+.thumbnail {
+    float: left;
+    margin: 0px 15px 5px 0px;
+}
+
+/*
+#carlBlog {
+    padding: 1px;
+
+}
+*/
+
+blockquote {
+    background-color: pink;
+    color: aqua;
+    padding: 9px;
+}
+
