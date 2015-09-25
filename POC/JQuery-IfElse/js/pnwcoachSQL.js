@@ -1,5 +1,5 @@
 $.ajax(
-        {url: 'http://monkey-problems.com/PNWCoachesSQL/apps/mySQLiArray.php',
+        {url: 'http://monkey-problems.com/POC/JQuery-IfElse/apps/mySQLiArray.php',
         data: {action: 'test'},
         dataType: 'json',
         type: 'post',
