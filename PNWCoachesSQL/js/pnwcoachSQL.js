@@ -14,7 +14,6 @@ $.ajax(
 
             document.getElementById("coachPhoto").src = $pic;   
             document.getElementById("coachName").innerHTML = $name;   
-//            document.getElementById("coachCity").innerHTML = $city;   
             document.getElementById("coachStory").innerHTML = $story;   
             document.getElementById("coachStatement").innerHTML = $statement;   
           }

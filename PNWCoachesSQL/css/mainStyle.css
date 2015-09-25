@@ -2,18 +2,27 @@ body {
   background-color: black;
   color: white;
   margin: 0;
-  padding: 1.5%;
+  padding: 1%;
   font-family: 'Poiret One', cursive;
 }
 
-figcaption {
+h1 {
   font-size: 2em;
-  margin: 2%;
+/*
+  padding: 5% 0 1% 0;
+  margin: 0 0 0 2%;
+*/
 }
 
-section {
-  margin: 0;
+p {
+  font-size: 1em;
+}
+
+section#images {
+/*
+  margin: 2% 0 0 2%;
   padding: 0;
+*/
 }
 
 article {
@@ -23,33 +32,41 @@ article {
 }
 
 img {
-  width: 100%;
-  margin: 3% 3% 0 0;
+  width: 97%;
+/*
+  margin: 0 0 3% 0;
+  padding: 2%;
+*/
 }
 
 aside {
-  padding: 10px;
-  background-color: lightgrey;
-  color: black;
-  margin: 0 3% 0 0;
-}
-
-p {
-  font-size: 1.5em;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: .5% 2%;
+/*  margin: 0 3% 0 0;*/
 }
 
 .thumbnail {
   float: left;
-  margin: 1% 3% 1% 0;
+/*  margin: 1% 3% 1% 0;*/
   width: 50%;
 }
 
 .signature {
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'Shadows Into Light Two', cursive;
 }
 
+span_1_of_2 {
+/*
+  padding: 0;
+  margin: 5% 0 0 0;
+*/
+}
+
 span_2_of_3 {
+/*
   padding: 0;
   margin: 0;
+*/
 }
