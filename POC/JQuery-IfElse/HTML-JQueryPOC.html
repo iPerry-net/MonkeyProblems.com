@@ -10,19 +10,31 @@
 	<meta charset="utf-8">
   
 <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta http-equiv="cleartype" content="on">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="cleartype" content="on">
 
-	<link rel="shortcut icon" href="_images/favicon.png">
+  <link rel="shortcut icon" href="_images/favicon.png">
 
 <!-- Responsive and mobile friendly stuff -->
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 <!-- Special Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+  
+<!--	<link rel="stylesheet" href="css/html5reset.css" media="all">-->
+  <link rel="stylesheet" href="css/col.css" media="all">
+  <link rel="stylesheet" href="css/2cols.css" media="all">
+  <link rel="stylesheet" href="css/3cols.css" media="all">
+
+<!-- Responsive Stylesheets -->
+  <link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="css/1024.css">
+  <link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="css/768.css">
+  <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/480.css">
 
 <!-- Custom / My Stylesheets -->
   <link rel="stylesheet" href="css/mainStyle.css" media="all">
@@ -34,23 +46,21 @@
 
 <body>
 
-<!-- Coach's Story Container -->
+      <h1 id="coachName"></h1>
+      <img id="coachPhoto" class="thumbnail" src=""/>
+      <img id="EndTheTrendLogo" class="thumbnail" src="_images/endthetrend.jpg"/>
+  
+      <article id="coachContent">
+        <p id="coachStory"></p>
+        <p id="coachStatement"></p>
+      </article>
 
-  <img id="coachPhoto" class="thumbnail" width="200px" src=""/>
-  <h1 id="coachName">Coach's Name</h1>
-  <h3 id="coachCity">Coach's City</h3>
-  <p id="coachStory">Coach's Story</p>
-  <h3 id="coachStatement">Coach's Statement</h3>
-
+  
 <!-- JavaScript at the bottom for fast page loading -->
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
-<!--<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"></script>')</script>-->
 
-<!--<script src="js/pnwcoach.js"></script>-->
-<script src="js/w3JQuery.js"></script>
+<!-- More Scripts-->
+<script src="js/pnwcoachSQL.js"></script>
 
 </body>
 </html>
