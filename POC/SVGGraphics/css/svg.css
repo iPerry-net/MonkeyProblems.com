@@ -1,0 +1,45 @@
+.Icon {
+  color: pink;
+  width: 50%;
+}
+
+.Box{
+  fill: turquoise;
+}
+
+.Text{
+  fill:pink;
+}
+
+.iP {
+  fill : none;
+  stroke: black;
+  stroke-width: 1;
+  stroke-miterlimit: 5;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 8s linear forwards;
+}
+
+.iPi {
+  fill : none;
+  stroke: black;
+  stroke-width: 1;
+  stroke-miterlimit: 5;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 80s linear forwards;
+}
+
+#logo:hover .iPi {
+  fill: black;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 800;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

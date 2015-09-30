@@ -1,0 +1,79 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="index.html" resolutions="1x" timestamp="1443324774038">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="index.css" crc="3925377855" ref="index"/>
+    <file name="bathroom.css" crc="276679857" ref="bathroom"/>
+    <file name="hot-water-heater.css" crc="384826706" ref="hot-water-heater"/>
+    <file name="overview.css" crc="500122853" ref="overview"/>
+    <file name="laundry-room.css" crc="161559285" ref="laundry-room"/>
+    <file name="master_layout.css" crc="193972741" ref="bathroom:hot-water-heater:overview:laundry-room"/>
+  </folder>
+  <folder name="assets">
+    <file name="00d-overview-staircase.jpg" crc="192874000" seo="true" mt="1443288163000"/>
+    <file name="00c-overview-laundry.jpg" crc="3783161953" seo="true" mt="1443320270000"/>
+    <file name="00a-overview-bathroom.jpg" crc="275933935" seo="true" mt="1443320284000"/>
+    <file name="00b-overview-bathroom-laundry.jpg" crc="524401620" seo="true" mt="1443320278000"/>
+    <file name="02-laundry-back-bathroom-wall.jpg" crc="526882849" seo="true" mt="1443288333000"/>
+    <file name="03-laundry-sink-floor-drain.jpg" crc="193578709" seo="true" mt="1443320259000"/>
+    <file name="01c-laundry-sink-water-lines.jpg" crc="3926176821" seo="true" mt="1443288299000"/>
+    <file name="01b-laundry-sink-pipe.jpg" crc="349116103" seo="true" mt="1443288274000"/>
+    <file name="01a-laundry-sink-drain.jpg" crc="267208416" seo="true" mt="1443288214000"/>
+    <file name="04d-clogged-pipe-across-ceiling.jpg" crc="302944173" seo="true" mt="1443288567000"/>
+    <file name="04b-clogged-pipe-large.jpg" crc="371185993" seo="true" mt="1443320240000"/>
+    <file name="04c-clogged-pipe-looking-up.jpg" crc="4232212631" seo="true" mt="1443288488000"/>
+    <file name="04a-clogged-upper-bathroom-sink-drain.jpg" crc="3938043286" seo="true" mt="1443324119000"/>
+    <file name="05a-elevated-shower.jpg" crc="4280689694" seo="true" mt="1443320218000"/>
+    <file name="05b-shower-drain-into-floor.jpg" crc="4276145806" seo="true" mt="1443288614000"/>
+    <file name="06a-bathroom-wall-drain.jpg" crc="3774256575" seo="true" mt="1443320204000"/>
+    <file name="06b-bathroom-wall-closeup.jpg" crc="225918476" seo="true" mt="1443288663000"/>
+    <file name="07a-hot-water-heater-under-stairs.jpg" crc="3948047776" seo="true" mt="1443320194000"/>
+    <file name="07b-drains-behind-hot-water-heater-i.jpg" crc="386256715" seo="true" mt="1443320186000"/>
+    <file name="07c-drains-behind-hot-water-heater-ii.jpg" crc="4163101799" seo="true" mt="1443320179000"/>
+    <file name="07d-main-stack-pipes-behind-hot-water-heater.jpg" crc="4046479910" seo="true" mt="1443320171000"/>
+    <file name="07f-drain-pipe-wrap-around-and-water-heater.jpg" crc="431040128" seo="true" mt="1443324744000"/>
+    <file name="08-far-left-closed-drain.jpg" crc="4177409216" seo="true" mt="1443320140000"/>
+    <file name="04d-clogged-pipe-falling-bathroom-side.jpg" crc="4202738655" seo="true" mt="1443288527000"/>
+    <file name="07e-main-stack-pipe-closer-view.jpg" crc="122881020" seo="true" mt="1443322283000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:overview:laundry-room:bathroom:hot-water-heater"/>
+    <file name="museutils.js" crc="275725342" ref="index:overview:laundry-room:bathroom:hot-water-heater"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:overview:laundry-room:bathroom:hot-water-heater"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:overview:laundry-room:bathroom:hot-water-heater"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:overview:laundry-room:bathroom:hot-water-heater"/>
+  </folder>
+  <folder name="images">
+    <file name="09-existing-layout.jpg" crc="371073700" seo="true" ref="index"/>
+    <file name="09-2b-layout.jpg" crc="407637718" seo="true" ref="index"/>
+    <file name="00d-overview-staircase.jpg" crc="4132141030" seo="true" ref="overview"/>
+    <file name="00c-overview-laundry.jpg" crc="526136344" seo="true" ref="overview"/>
+    <file name="00a-overview-bathroom.jpg" crc="155768328" seo="true" ref="overview"/>
+    <file name="00b-overview-bathroom-laundry.jpg" crc="4095384613" seo="true" ref="overview"/>
+    <file name="02-laundry-back-bathroom-wall.jpg" crc="487766708" seo="true" ref="laundry-room"/>
+    <file name="03-laundry-sink-floor-drain.jpg" crc="144586829" seo="true" ref="laundry-room"/>
+    <file name="01c-laundry-sink-water-lines.jpg" crc="226317111" seo="true" ref="laundry-room"/>
+    <file name="01b-laundry-sink-pipe.jpg" crc="34560029" seo="true" ref="laundry-room"/>
+    <file name="01a-laundry-sink-drain.jpg" crc="108615259" seo="true" ref="laundry-room"/>
+    <file name="04d-clogged-pipe-falling-bathroom-side.jpg" crc="3830918747" seo="true" ref="bathroom"/>
+    <file name="04b-clogged-pipe-large.jpg" crc="195630169" seo="true" ref="bathroom"/>
+    <file name="04c-clogged-pipe-looking-up.jpg" crc="4102280013" seo="true" ref="bathroom"/>
+    <file name="04a-clogged-upper-bathroom-sink-drain.jpg" crc="269803088" seo="true" ref="bathroom"/>
+    <file name="04d-clogged-pipe-across-ceiling.jpg" crc="110852821" seo="true" ref="bathroom"/>
+    <file name="05a-elevated-shower.jpg" crc="4015105176" seo="true" ref="bathroom"/>
+    <file name="05b-shower-drain-into-floor.jpg" crc="3838908363" seo="true" ref="bathroom"/>
+    <file name="06a-bathroom-wall-drain.jpg" crc="379463842" seo="true" ref="bathroom"/>
+    <file name="06b-bathroom-wall-closeup.jpg" crc="4039650750" seo="true" ref="bathroom"/>
+    <file name="07a-hot-water-heater-under-stairs.jpg" crc="4141812390" seo="true" ref="hot-water-heater"/>
+    <file name="07b-drains-behind-hot-water-heater-i.jpg" crc="4199070127" seo="true" ref="hot-water-heater"/>
+    <file name="07c-drains-behind-hot-water-heater-ii.jpg" crc="3869836962" seo="true" ref="hot-water-heater"/>
+    <file name="07d-main-stack-pipes-behind-hot-water-heater.jpg" crc="460436329" seo="true" ref="hot-water-heater"/>
+    <file name="07e-main-stack-pipe-closer-view.jpg" crc="33852188" seo="true" ref="hot-water-heater"/>
+    <file name="07f-drain-pipe-wrap-around-and-water-heater.jpg" crc="4049506734" seo="true" ref="hot-water-heater"/>
+    <file name="08-far-left-closed-drain.jpg" crc="3930324548" seo="true" ref="hot-water-heater"/>
+  </folder>
+  <file name="index.html" crc="62378941" seo="true" mt="1443323630696" redirect="true"/>
+  <file name="overview.html" crc="4084895983" seo="true" mt="1443323645183" redirect="true"/>
+  <file name="laundry-room.html" crc="4022095744" seo="true" mt="1443323671219" redirect="true"/>
+  <file name="bathroom.html" crc="3777132085" seo="true" mt="1443323742911" redirect="true"/>
+  <file name="hot-water-heater.html" crc="53621762" seo="true" mt="1443324546835" redirect="true"/>
+</manifest>

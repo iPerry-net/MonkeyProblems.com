@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <link rel="stylesheet" href="css/counter.css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+  
+  <script src="//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.js?r=12"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+</head>
+  
+<body>
+
+<h2>Counter Lifted from <a href="http://codepen.io/chrisgannon/pen/azMYaW"></a>Chris Gannon</h2>
+
+  <div id="container">
+
+<svg version="1.1"
+	 width="180px" height="180px" viewBox="0 0 180 180">
+<defs>
+  
+<filter id="glow" y="-50%" height="180%">
+    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+</filter> 
+  
+<filter id="glow2" y="-50%" height="180%">
+    <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+    <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+</filter>    
+</defs>
+  
+  <g filter="url(#glow)">
+<path id="outline" fill="none" stroke="#ededed" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M90.5,161C51.6,161,20,129.4,20,90.5S51.6,20,90.5,20S161,51.6,161,90.5S129.4,161,90.5,161"/>
+<path id="outline_bg" fill="none" opacity="0.02" stroke="#ededed" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M90.5,161C51.6,161,20,129.4,20,90.5S51.6,20,90.5,20S161,51.6,161,90.5S129.4,161,90.5,161"/>  
+<path id="tick" fill="none" stroke="#ededed" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M128.9,58l-37,64.1L47.1,93.2"/>
+  
+  </g>
+  <text  filter="url(#glow2)" class="loading" x="51%" y="105">0%</text> 
+</svg>
+ 
+</div>
+  
+  <script src="js/counter.js"></script>
+
+</html>

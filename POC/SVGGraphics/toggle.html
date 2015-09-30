@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggleClass("main");
+    });
+});
+</script>
+  
+<style>
+.main {
+    font-size: 120%;
+    color: red;
+}
+</style>
+  
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p class="main">This is another paragraph.</p>
+
+<button>Toggle class "main" for p elements</button>
+
+</body>
+</html>
+
+<!--
+  <script type="text/javascript">
+  
+  var clicker = document.querySelector("#logo");
+    
+  clicker.addEventListener("click", function() {
+    this.classList.toggle("active");
+  });
+  
+  </script>
+-->

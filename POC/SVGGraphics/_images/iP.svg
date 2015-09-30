@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 75 63.5" style="enable-background:new 0 0 75 63.5;" xml:space="preserve">
+  
+<defs>
+
+  <style type="text/css">
+
+    .iP {
+      fill : white;
+      stroke: black;
+      stroke-width: 1;
+      stroke-miterlimit: 5;
+      stroke-dasharray: 800;
+      stroke-dashoffset: 0;
+      -webkit-animation: dash 8s linear forwards;
+    }
+    
+    #logo:hover .iP {
+      fill: black;
+      transition: 1s;
+    }
+    
+    #logo:active .iP {
+      fill:darkblue;
+      stroke:darkblue;
+      transition: 0s;
+    }
+
+    @-webkit-keyframes dash {
+      from {
+        stroke-dashoffset: 800;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+  </style>
+  
+  <script type="text/javascript">
+  
+  var clicker = document.querySelector("#logo");
+    
+  clicker.addEventListener( "click", function() {
+    this.classList.toggle( "active" );
+  });
+  
+  </script>
+
+</defs>
+  
+<g id="logo">
+  <path class="iP" d="M12.4,13.9c1.9,0,3.5-0.7,4.8-2c1.3-1.3,2-2.9,2-4.7c0-1.9-0.7-3.5-2-4.8c-1.3-1.3-2.9-2-4.7-2
+  c-1.9,0-3.5,0.7-4.8,2c-1.3,1.3-2,2.9-2,4.8c0,1.8,0.7,3.4,2,4.7C9,13.2,10.6,13.9,12.4,13.9z"/>
+
+  <path class="iP" d="M70.8,8.4c-1.3-2-3.1-3.4-5.6-4.4c-2.5-1-6.3-1.5-11.4-1.5c-1.4,0-3.5,0-6.5,0.1C41.9,2.8,38,2.9,35.5,2.9
+  c-1.8,0-4.2,0-7.2-0.1l-4.9-0.2v3.6L26,6.4c2.1,0.1,3.3,0.4,3.7,0.9c0.4,0.5,0.7,2.7,0.9,6.6c0.2,3.9,0.3,10.5,0.3,19.7
+  c0,4.9-0.1,10-0.2,15.2c-0.1,5.2-0.3,8.2-0.6,8.9c-0.2,0.4-0.4,0.7-0.8,0.9c-0.5,0.3-2.4,0.6-5.7,0.8c-2.6-0.2-4.1-0.5-4.5-0.7
+  c-0.4-0.3-0.6-0.8-0.8-1.7c-0.2-1.3-0.3-4.9-0.3-11c0-10.5,0.2-18.5,0.6-24l-1.1-0.9C13.1,23,7.4,24.3,0.5,24.8v3.3l3.2,0.1
+  c1.6,0.1,2.5,0.3,2.9,0.7C7,29.3,7.2,30.3,7.2,32l0.1,5c0.1,2.3,0.1,4.7,0.1,7.4c0,6.2-0.1,10.2-0.3,12c-0.1,1.3-0.5,2.1-1,2.4
+  c-0.5,0.3-2.4,0.5-5.6,0.6V63c6.6-0.2,10.7-0.3,12.2-0.3c2.6,0,6.2,0.1,10.7,0.2v0c0.3,0,0.5,0,0.8,0c0.2,0,0.3,0,0.5,0v0
+  c8.2-0.2,13-0.3,14.5-0.3c3.5,0,7.8,0.1,12.8,0.3v-3.6c-4.3-0.3-6.7-0.5-7.3-0.9c-0.4-0.2-0.7-0.5-0.8-1c-0.2-0.7-0.3-3.2-0.4-7.6
+  c-0.2-11.1-0.3-17.7-0.3-19.8c0-6.1,0.1-13.6,0.4-22.5c2-0.4,3.8-0.6,5.3-0.6c3.7,0,6.5,1,8.4,3c1.9,2,2.9,4.9,2.9,8.9
+  c0,3.6-0.9,6.4-2.8,8.4c-1.8,2-4.2,3-7.1,3c-0.4,0-0.9,0-1.4-0.1c-0.5-0.1-1.1-0.2-1.7-0.3l-1,1.1c0.5,1,1.1,2,1.6,3
+  c0.9,0.2,1.8,0.4,2.7,0.5c0.8,0.1,1.6,0.2,2.4,0.2c5.8,0,10.6-1.8,14.4-5.4c3.8-3.6,5.7-8,5.7-13.4C72.7,12.9,72.1,10.4,70.8,8.4z"
+  />
+</g>
+</svg>

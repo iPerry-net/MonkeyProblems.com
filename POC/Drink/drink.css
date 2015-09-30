@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+
+html { height: 100%; }
+
+body {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 1.5em;
+  text-align: center;
+}
+
+#loader {
+  position: absolute;
+  top:50%; 
+  left:50%;
+  height:200px; 
+  width:100px;
+  margin-top:-100px; 
+  margin-left:-50px;
+}
+
+#drink {
+  z-index: 1;
+  position: absolute;
+  top:100%; right:0; bottom:0; left:0;
+  background: black;
+}
+
+#counter {
+z-index: 2;
+  position: relative;
+  line-height: 200px;
+  font-size: 1.5em;
+  color: grey;
+  background: white;
+  padding: 2px;
+}
+
+footer {
+    position: absolute;
+    left:0; top:50%; right:0;
+    margin-top: 120px;
+    color: steelblue;
+}

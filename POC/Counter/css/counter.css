@@ -1,0 +1,25 @@
+body{
+  background-color:#002529;
+  overflow:hidden;
+}
+
+body, html, #container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+  color: white;
+}
+
+text{
+  position:absolute;
+  font-family: 'Open Sans Condensed', sans-serif;
+  fill:#ededed;
+  font-size:36px;
+  text-anchor:middle;
+  font-weight:700;
+
+}
