@@ -8,7 +8,6 @@
     .code {
       fill : white;
       stroke: black;
-      width: 10%;
       stroke-width: 1;
       stroke-miterlimit: 5;
       stroke-dasharray: 800;
