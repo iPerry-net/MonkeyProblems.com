@@ -2,35 +2,30 @@ html, body{
   height: 100%;
   margin: 0;
   padding: 0;
+/*
   webkit-background-size: cover;
   -webkit-font-smoothing: subpixel-antialiased;
   position: relative;
   overflow: auto;
+*/
 }
 
-/*
 h2 {
   font-family: sans-serif;
-  text-align: center;
   color: #000;
-  text-shadow: 1px 1px 2px #000;
-  display: block;
-  margin-top: -40px;
 }
-*/
 
 svg {
-  padding: 30px;
-  display: block;
-  margin: 80px auto 20px;
-  height: 280px;
-  width: 1000px; 
+  height: 50%;
+  width: 50%; 
+/*
   -webkit-filter: drop-shadow( 1px 1px 2px #444 );
    filter: drop-shadow( 1px 1px 2px #444);
+*/
 }
 
 .circle {
-   text-shadow: 10px 10px 5px #888888;
+/*   text-shadow: 10px 10px 5px #888888;*/
 }
 
 svg:active .circle{
